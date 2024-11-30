@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=+5V Pin=U6-2
+Change Component Footprint: Designator=X1 Old Footprint=ABRA-ABLS-14.7456MHZ-B2-T_V New Footprint=ABRA-ABLS-14.7456MHZ-B2-T_V
+Change Component Footprint: Designator=C1 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C2 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C3 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C5 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C12 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C16 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C17 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C24 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C27 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=C28 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=FB1 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=FB2 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC1206(3216)130_M
+Change Component Footprint: Designator=U5 Old Footprint=DCY0004A_M New Footprint=DCY0004A_M
+Change Component Footprint: Designator=J3 Old Footprint=FP-USB4105-GF-A-MFG New Footprint=FP-USB4105-GF-A-MFG
+Add Component: Footprint Not Found TE_2-1734592-4
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin J1-5
+Add Pin To Net: Unknown Pin: Pin J1-6
+Add Pin To Net: Unknown Pin: Pin J1-7
+Add Pin To Net: Unknown Pin: Pin J1-8
+Add Pin To Net: Unknown Pin: Pin J1-9
+Add Pin To Net: Unknown Pin: Pin J1-10
+Add Pin To Net: Unknown Pin: Pin J1-11
+Add Pin To Net: Unknown Pin: Pin J1-12
+Add Pin To Net: Unknown Pin: Pin J1-13
+Add Pin To Net: Unknown Pin: Pin J1-14
+Add Pin To Net: Unknown Pin: Pin J1-15
+Add Pin To Net: Unknown Pin: Pin J1-16
+Add Pin To Net: Unknown Pin: Pin J1-17
+Add Pin To Net: Unknown Pin: Pin J1-18
+Add Pin To Net: Unknown Pin: Pin J1-19
+Add Pin To Net: Unknown Pin: Pin J1-20
+Add Pin To Net: Unknown Pin: Pin J1-21
+Add Pin To Net: Unknown Pin: Pin J1-22
+Add Pin To Net: Unknown Pin: Pin J1-23
+Add Pin To Net: Unknown Pin: Pin J1-24
+Add Pin To Net: Unknown Pin: Pin J1-S1
+Add Pin To Net: Unknown Pin: Pin J1-S2
+Added Pin To Net: NetName=+5VUSB Pin=U6-2
+Add Class Member: Failed to add class member : Component J1 FPC Connector

@@ -1,0 +1,27 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:54:28 PM On 9/30/2024
+
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [MCU_Board_fNIRS.PcbDoc]
+   Generated File[MCU_Board_fNIRS.GTO]
+   Generated File[MCU_Board_fNIRS.GTP]
+   Generated File[MCU_Board_fNIRS.GTS]
+   Generated File[MCU_Board_fNIRS.GTL]
+   Generated File[MCU_Board_fNIRS.G1]
+   Generated File[MCU_Board_fNIRS.G2]
+   Generated File[MCU_Board_fNIRS.GBL]
+   Generated File[MCU_Board_fNIRS.GBS]
+   Generated File[MCU_Board_fNIRS.GBP]
+   Generated File[MCU_Board_fNIRS.GBO]
+   Generated File[MCU_Board_fNIRS.GM4]
+   Generated File[MCU_Board_fNIRS.RUL]
+   Generated File[MCU_Board_fNIRS.EXTREP]
+   Generated File[MCU_Board_fNIRS.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 2:54:31 PM On 9/30/2024

@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=SB_OTG_DN Pin=J3-A7
+Added Pin To Net: NetName=SB_OTG_DN Pin=J3-B7
+Added Pin To Net: NetName=SB_OTG_DN Pin=U1-70
+Added Net: Name=SB_OTG_DN
+Added Pin To Net: NetName=USB_OTG_DP Pin=J3-A6
+Added Pin To Net: NetName=USB_OTG_DP Pin=J3-B6
+Added Pin To Net: NetName=USB_OTG_DP Pin=U1-71
+Added Net: Name=USB_OTG_DP
+Added Room: Name=MCU_Board_fNIRS
+Added Room: Name=MCU_Board_fNIRS_POWER

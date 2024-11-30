@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=FB1 Old Footprint=CAPC1206(3216)130_M New Footprint=BEADC1608X95N
+Change Component Footprint: Designator=FB2 Old Footprint=CAPC1206(3216)130_M New Footprint=BEADC1608X95N
+Change Component Description : Designator=B1 Old Description= New Description=Tactile Switch SPST-NO Top Actuated Surface Mount
+Change Component Description : Designator=FB2 Old Description=600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 350mA 500mOhm New Description=220 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1.4A 100mOhm
+Added Member To Class: ClassName=MCU_Board_fNIRS Member=Component J1 FPC Connector

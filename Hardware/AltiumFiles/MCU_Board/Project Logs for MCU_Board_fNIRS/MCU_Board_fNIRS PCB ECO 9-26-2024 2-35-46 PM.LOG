@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C24 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC3216X180N
+Change Component Description : Designator=C27 Old Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD New Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm
+Change Component Description : Designator=C28 Old Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD New Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm
+Change Component Description : Designator=C16 Old Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD New Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD
+C1206C105Z3VAC7800

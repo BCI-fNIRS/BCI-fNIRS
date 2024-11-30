@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MUX2_S2 Pin=U1-92
+Removed Pin From Net: NetName=MUX2_S1 Pin=U1-93
+Added Pin To Net: NetName=MUX2_S1 Pin=U1-92
+Added Pin To Net: NetName=MUX2_S2 Pin=U1-93

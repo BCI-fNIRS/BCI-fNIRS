@@ -1,0 +1,35 @@
+Added Component: Designator=J1(TE_FPC)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "2-1734592-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2-1734592-4/TE%20Connectivity/view-part/4788511/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=J1-1
+Added Pin To Net: NetName=-15V Pin=J1-2
+Added Pin To Net: NetName=3V3 Pin=J1-3
+Added Pin To Net: NetName=-5V Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=735-S1 Pin=J1-6
+Added Pin To Net: NetName=850-S1 Pin=J1-7
+Added Pin To Net: NetName=TIA_OUT_A Pin=J1-8
+Added Pin To Net: NetName=TIA_RST_A Pin=J1-9
+Added Pin To Net: NetName=MUX_EN Pin=J1-10
+Added Pin To Net: NetName=MUX2_S2 Pin=J1-11
+Added Pin To Net: NetName=MUX2_S1 Pin=J1-12
+Added Pin To Net: NetName=MUX2_S0 Pin=J1-13
+Added Pin To Net: NetName=MUX1_S2 Pin=J1-14
+Added Pin To Net: NetName=MUX1_S1 Pin=J1-15
+Added Pin To Net: NetName=MUX1_S0 Pin=J1-16
+Added Pin To Net: NetName=TIA_RST_B Pin=J1-17
+Added Pin To Net: NetName=TIA_OUT_B Pin=J1-18
+Added Pin To Net: NetName=850-S4 Pin=J1-19
+Added Pin To Net: NetName=735-S4 Pin=J1-20
+Added Pin To Net: NetName=850-S3 Pin=J1-21
+Added Pin To Net: NetName=735-S3 Pin=J1-22
+Added Pin To Net: NetName=850-S2 Pin=J1-23
+Added Pin To Net: NetName=735-S2 Pin=J1-24
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Member To Class: ClassName=MCU_Board_fNIRS Member=Component J1 FPC Connector

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:53:01 AM On 10/19/2024
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [MCU_Board_fNIRS.PcbDoc]
+   Generated File[MCU_Board_fNIRS.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:53:08 AM On 10/19/2024

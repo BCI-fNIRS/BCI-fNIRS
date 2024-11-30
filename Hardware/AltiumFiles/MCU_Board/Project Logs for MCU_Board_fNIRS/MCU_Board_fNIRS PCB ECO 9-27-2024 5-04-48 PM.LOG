@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=USB_OTG_DN New Net Name=USB_OTG_D_N
+Change Net Name : Old Net Name=USB_OTG_DP New Net Name=USB_OTG_D_P
+Added Differential Pair: Name=USB_OTG_D
+Added Room: Name=MCU_Board_fNIRS
+Added Room: Name=MCU_Board_fNIRS_POWER

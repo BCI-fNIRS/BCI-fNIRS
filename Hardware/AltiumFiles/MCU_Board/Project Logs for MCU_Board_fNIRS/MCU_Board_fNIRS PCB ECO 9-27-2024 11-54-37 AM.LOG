@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C27 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC3216X180N
+Change Component Footprint: Designator=C28 Old Footprint=CAPC1206(3216)130_M New Footprint=CAPC3216X180N
+Change Component Comment : Designator=FB2 Old Comment=220 Ohms @ 100 MHz New Comment=BLM18PG221SN1D
+Change Component Description : Designator=C27 Old Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD New Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm
+Change Component Description : Designator=C28 Old Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm SMD New Description=CAP 1uF 25V -20% to +80% 1206 (3216 Metric) Thickness 1.3mm

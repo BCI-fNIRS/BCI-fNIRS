@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MCU_Board_fNIRS.PcbDoc   10/4/2024  11:50:39 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : SIG_TOP to SIG_BOT
+ASCII RoundHoles File : MCU_Board_fNIRS-RoundHoles.TXT
+ASCII SlotHoles File : MCU_Board_fNIRS-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.5mm (20mil)                                             Round             63        PTH        317.19mm (12.49inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        38.17mm (1.50inch)
+T3      0.7mm (28mil)                                             Round             10        PTH        11.43mm (0.45inch)
+T4      0.8mm (31mil)                                             Round             8         PTH        27.94mm (1.10inch)
+T5      0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              87
+
+Total Processing Time (hh:mm:ss) : 00:00:00

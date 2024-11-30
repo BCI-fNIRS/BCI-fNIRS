@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=USB_OTG_DP Pin=J3-A6
+Removed Pin From Net: NetName=USB_OTG_DN Pin=J3-A7
+Removed Pin From Net: NetName=USB_OTG_DP Pin=J3-B6
+Removed Pin From Net: NetName=USB_OTG_DN Pin=J3-B7
+Added Pin To Net: NetName=USB_OTG_D_N Pin=J3-A7
+Added Pin To Net: NetName=USB_OTG_D_N Pin=J3-B7
+Added Net: Name=USB_OTG_D_N
+Added Pin To Net: NetName=USB_OTG_D_P Pin=J3-A6
+Added Pin To Net: NetName=USB_OTG_D_P Pin=J3-B6
+Added Net: Name=USB_OTG_D_P
+Added Differential Pair: Name=USB_OTG_D
+Added Room: Name=MCU_Board_fNIRS
+Added Room: Name=MCU_Board_fNIRS_POWER
