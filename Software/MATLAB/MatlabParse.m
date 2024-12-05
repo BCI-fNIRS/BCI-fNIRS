@@ -1,21 +1,31 @@
 % MATLAB Script: Plot CSV Data with Interactive Subplots
+clear, clc;
 % Load CSV file
 [file, path] = uigetfile('*.csv', 'Select a CSV file');
-data = readtable(fullfile(path, file));
 
-% Extract SampleIndex and Marker columns
-sampleIndex = data.SampleIndex;
-if any(strcmp(data.Properties.VariableNames, 'Markers'))
-    markers = data.Markers;
-else
-    markers = [];
+% Detect import options
+opts = detectImportOptions(fullfile(path, file));
+
+% Ensure 'MarkerLabel' is read as string
+if ismember('MarkerLabel', opts.VariableNames)
+    opts = setvartype(opts, 'MarkerLabel', 'string');
 end
+
+% Ensure 'MarkerIndex' is read as double
+if ismember('MarkerIndex', opts.VariableNames)
+    opts = setvartype(opts, 'MarkerIndex', 'double');
+end
+
+% Read the table with the specified options
+data = readtable(fullfile(path, file), opts);
+
+% Extract SampleIndex
+sampleIndex = data.SampleIndex;
 
 % Identify channel columns for 735 and 850 wavelengths
 channelNames = data.Properties.VariableNames;
 channel735 = contains(channelNames, '735');
 channel850 = contains(channelNames, '850');
-markers = contains(channelNames, 'MarkerLabel')
 
 % Find unique channel identifiers (e.g., S1A0L)
 channelIDs735 = extractAfter(channelNames(channel735), '735');
@@ -43,8 +53,20 @@ for i = 1:numPlots
     % Extract data
     data735 = data{:, col735};
     data850 = data{:, col850};
-    markerLabel = data{:, 43}(find((data{:, 42} >= 0) ~= 0));
-    markerData = data{:, 42}(find((data{:, 42} >= 0) ~= 0));
+    
+    % Extract marker data and labels if they exist
+    if ismember('MarkerIndex', data.Properties.VariableNames) && ismember('MarkerLabel', data.Properties.VariableNames)
+        markerData = data.MarkerIndex;
+        markerLabel = data.MarkerLabel;
+        
+        % Remove missing values
+        validMarkers = ~ismissing(markerData);
+        markerData = markerData(validMarkers);
+        markerLabel = markerLabel(validMarkers);
+    else
+        markerData = [];
+        markerLabel = [];
+    end
     
     % Plot in a subplot
     ax = subplot(gridRows, gridCols, i);
@@ -61,7 +83,11 @@ for i = 1:numPlots
     if ~isempty(markerData)
         colors = lines(length(markerData)); 
         for j = 1:length(markerData)
-            xline(markerData(j),'DisplayName', string(markerLabel(j)), 'Color', colors(j, :), 'LineWidth', 1.5)
+            labelStr = markerLabel(j);
+            if ismissing(labelStr)
+                labelStr = '';
+            end
+            xline(markerData(j), 'DisplayName', labelStr, 'Color', colors(j, :), 'LineWidth', 1.5);
         end
     end
     
